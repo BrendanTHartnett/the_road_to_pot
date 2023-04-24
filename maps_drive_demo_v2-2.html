@@ -392,7 +392,7 @@ import googlemaps</code></pre>
 <p>Next, we need to define the Google Maps API. To do this, you first
 need to obtain an API key, which you can obtain <a href="https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=DChcSEwjwwamR-L7-AhWpJrMAHZlUCA4YABAAGgJ5bQ&amp;ohost=www.google.com&amp;cid=CAESauD2F9xG-BTugnGXBtxD34m4pcVNz7LhxNWL6IFNyyD2PWw0ELKVAalJEvYOqJJC1RXQZcnzjQdy1EBeGAtUQ1tfvfEXXN0h8jlt6W6yQWRQ0whYB30n5kCC5--Gf7TlfG6DeaQUO5f7f_A&amp;sig=AOD64_3tt6NuN8koeNb2VirhID9T_luJ_Q&amp;q&amp;adurl&amp;ved=2ahUKEwjmhKCR-L7-AhVDFlkFHXFDA_gQ0Qx6BAgGEAE&amp;nis=8">here</a>.</p>
 <pre class="python"><code># Define the Google Maps API key
-gmaps = googlemaps.Client(key=&#39;AIzaSyAKiqWAENqXLewMqGgh7_7yliWw_1VhFQ0&#39;, retry_over_query_limit=True)</code></pre>
+gmaps = googlemaps.Client(key=&#39;YOUR_KEY&#39;, retry_over_query_limit=True)</code></pre>
 <p>The Google Maps API has usage limits. We can set
 <em>retry_over_query_limit</em> to “True” to avoid rait limit errors
 when we make our calls to the API.</p>
