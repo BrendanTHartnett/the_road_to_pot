@@ -4,4 +4,4 @@
 
 **bucksmont_subdivisions.csv** dataframe containing centroids of designated census places in Bucks and Montrgomery County (PA).
 
-**New_Jersey_Cannabis_Dispensaries.csv* dataframe containing the geocoordinates of New Jersey marijuana dispensaries.
+**New_Jersey_Cannabis_Dispensaries.csv** dataframe containing the geocoordinates of New Jersey marijuana dispensaries.
